@@ -1,10 +1,15 @@
-import type { ReactNode } from 'react';
-import React from 'react';
+import React, { ReactNode, useEffect } from 'react';
 
+import { useAtom } from 'jotai';
 import type { NextPage } from 'next';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import '../styles/main.css';
+import '../styles/anicons.css';
+import '../styles/print.css';
+import '../styles/fonts/Anicons/anicons-regular.css';
+
+import { displayAtom } from '../store/display';
 
 type GetLayout = (page: ReactNode) => ReactNode;
 
@@ -22,6 +27,14 @@ const defaultGetLayout: GetLayout = (page: ReactNode): ReactNode => page;
 
 function MyApp({ Component, pageProps }: MyAppProps): JSX.Element {
   const getLayout = Component.getLayout ?? defaultGetLayout;
+  const [, setDisplay] = useAtom(displayAtom);
+
+  useEffect(() => {
+    if (window) {
+      const width = window.innerWidth;
+      setDisplay({ isOnlyLogo: width <= 1024, isMini: width <= 800 });
+    }
+  }, [setDisplay]);
 
   return (
     <>

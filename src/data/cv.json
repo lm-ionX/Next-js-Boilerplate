@@ -1,0 +1,287 @@
+{
+  "general": {
+    "name": "Loïc Michoud",
+    "title": "Développeur Fullstack",
+    "description": "Vue JS 3, Angular, Nuxt, C#, ..."
+  },
+  "formations": [
+    {
+      "school": {
+        "name": "Ateliers Nomades",
+        "place": "Genève - Carouge",
+        "title": "Certificat WebProgrammer",
+        "imageUrl": "/assets/images/nomade.gif"
+      },
+      "bYear": 2020,
+      "eYear": 2020
+    },
+    {
+      "school": {
+        "name": "CeRFI SA",
+        "place": "Genève - Carouge",
+        "title": "Diplôme de développeur informatique",
+        "imageUrl": "/assets/images/cerfi.svg"
+      },
+      "bYear": 2013,
+      "eYear": 2013
+    },
+    {
+      "school": {
+        "name": "Haute École de Gestion",
+        "place": "Genève - Carouge",
+        "title": "Bachelor of Science",
+        "imageUrl": "/assets/images/logo_heg-ge.svg"
+      },
+      "bYear": 2008,
+      "eYear": 2013
+    },
+    {
+      "school": {
+        "name": "Maturité profesionnelle",
+        "place": "Genève - Onex",
+        "title": "Maturité profesionnelle",
+        "imageUrl": "/assets/images/mat_pro.svg"
+      },
+      "bYear": 2006,
+      "eYear": 2007
+    },
+    {
+      "school": {
+        "name": "CFC",
+        "place": "Genève - Onex",
+        "title": "Certificat de capacité",
+        "imageUrl": "/assets/images/cfc.png"
+      },
+      "bYear": 2002,
+      "eYear": 2006
+    }
+  ],
+  "jobs": [
+    {
+      "company": {
+        "name": "Sekoia SA",
+        "email": "info@sekoia.ch",
+        "imageUrl": "/assets/images/sekoia-logo.svg",
+        "website": "https://sekoia.ch"
+      },
+      "worker": {
+        "bYear": 2020,
+        "eYear": 2022,
+        "title": "",
+        "tasks": [
+          "Création de sites personnalisés",
+          "Helpdesk",
+          "Gestion de l'infrastructure",
+          "Gestion des accès"
+        ]
+      }
+    },
+    {
+      "company": {
+        "name": "Indépendant",
+        "email": "",
+        "imageUrl": "/assets/images/independant.jpg",
+        "website": ""
+      },
+      "worker": {
+        "bYear": 2020,
+        "eYear": 2020,
+        "title": "Développeur en informatique",
+        "tasks": [
+          "Mise en place d’une application web pour une agence immobilière"
+        ]
+      }
+    },
+    {
+      "company": {
+        "name": "Séjours en Asie (Taiwan)",
+        "email": "",
+        "imageUrl": "/assets/images/taiwan.jpg",
+        "website": "https://www.tmichinese.com/"
+      },
+      "worker": {
+        "bYear": 2017,
+        "eYear": 2017,
+        "title": "Année de formation et d’initiation",
+        "tasks": [
+          "Perfectionnement de l’anglais et essai au chinois",
+          "Soutien et dépannage informatique"
+        ]
+      }
+    },
+    {
+      "company": {
+        "name": "CeRFI SA",
+        "email": "info@cerfi.ch",
+        "imageUrl": "/assets/images/cerfi.svg",
+        "website": "https://cerfi.ch"
+      },
+      "worker": {
+        "bYear": 2013,
+        "eYear": 2016,
+        "title": "Développeur Junior",
+        "tasks": [
+          "Refonte et améliorations de myTeacher – logiciel de formation"
+        ]
+      }
+    },
+    {
+      "company": {
+        "name": "Migros",
+        "email": "info@migros.ch",
+        "imageUrl": "/assets/images/logo-migros.png",
+        "website": "https://migros.ch"
+      },
+      "worker": {
+        "bYear": 2004,
+        "eYear": 2010,
+        "title": "Vendeur (été)",
+        "tasks": [
+          "Contact avec la clientèle",
+          "Mise en valeur des articles",
+          "Conseil en informatique"
+        ]
+      }
+    }
+  ],
+  "categories": [
+    {
+      "name": "Développement",
+      "href": "#dev",
+      "skills": [
+        {
+          "name": "HTML 5",
+          "href": "https://fr.wikipedia.org/wiki/HTML5",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+        },
+        {
+          "name": "CSS 3",
+          "href": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade#CSS3",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+        },
+        {
+          "name": "Javascript ES6",
+          "href": "https://www.w3schools.com/js/js_es6.asp",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        },
+        {
+          "name": "TypeScript",
+          "href": "https://www.typescriptlang.org/",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+        },
+        {
+          "name": ".Net",
+          "href": "https://dotnet.microsoft.com/",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"
+        },
+        {
+          "name": "C#",
+          "href": "https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+        },
+        {
+          "name": "Svelte",
+          "href": "https://svelte.dev/",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
+        },
+        {
+          "name": "Node JS",
+          "href": "https://nodejs.org/en/about/",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        },
+        {
+          "name": "Angular",
+          "href": "https://angular.io/",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+        },
+        {
+          "name": "Nuxt",
+          "href": "https://nuxtjs.org/",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg"
+        },
+        {
+          "name": "Vue JS",
+          "href": "https://vuejs.org/",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+        },
+        {
+          "name": "NextJS",
+          "href": "https://nextjs.org/",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
+        },
+        {
+          "name": "React",
+          "href": "https://fr.reactjs.org/",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "href": "https://tailwindcss.com/",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        }
+      ]
+    },
+    {
+      "name": "Social",
+      "href": "#social",
+      "skills": [
+        {
+          "name": "Polyvalent",
+          "href": "#",
+          "logo": "/assets/images/social/versatile.png"
+        },
+        {
+          "name": "Proactif",
+          "href": "#",
+          "logo": "/assets/images/social/proactive.png"
+        },
+        {
+          "name": "Créatif",
+          "href": "#",
+          "logo": "/assets/images/social/creativity.png"
+        },
+        {
+          "name": "Autonome",
+          "href": "#",
+          "logo": "/assets/images/social/autonomous.png"
+        },
+        {
+          "name": "Digne de confiance",
+          "href": "#",
+          "logo": "/assets/images/social/trust.png"
+        },
+        {
+          "name": "Bonne capacité d’adaptation",
+          "href": "#",
+          "logo": "/assets/images/social/skills.png"
+        }
+      ]
+    },
+    {
+      "name": "Hobbies",
+      "href": "#hobbies",
+      "skills": [
+        {
+          "name": "Voyages",
+          "href": "luggage",
+          "logo": "/assets/images/hobbies/baggage.png"
+        },
+        {
+          "name": "Découverte",
+          "href": "travel_explore",
+          "logo": "/assets/images/hobbies/research.png"
+        },
+        {
+          "name": "Jeux-vidéos",
+          "href": "games",
+          "logo": "/assets/images/hobbies/console.png"
+        },
+        {
+          "name": "Lecture",
+          "href": "auto_stories",
+          "logo": "/assets/images/hobbies/read.png"
+        }
+      ]
+    }
+  ]
+}

@@ -12,7 +12,7 @@ const Layout = ({ meta, children }: Props) => (
   <>
     {meta}
     <Header />
-    <div className="container">{children}</div>
+    <div className="h-full">{children}</div>
     <Footer />
   </>
 );

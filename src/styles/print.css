@@ -1,0 +1,14 @@
+.print {
+  display: none;
+}
+
+/* override styles when printing */
+@media print {
+  .print {
+    display: block;
+  }
+
+  .noPrint {
+    display: none;
+  }
+}

@@ -1,3 +1,6 @@
+/* eslint-disable global-require */
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   mode: 'jit',
   purge: ['./src/**/*.{js,ts,jsx,tsx}'],
@@ -17,6 +20,10 @@ module.exports = {
     },
     extend: {
       colors: {
+        sky: colors.sky,
+        teal: colors.teal,
+        cyan: colors.cyan,
+        rose: colors.rose,
         gray: {
           100: '#f7fafc',
           200: '#edf2f7',
@@ -40,8 +47,29 @@ module.exports = {
           900: '#2a4365',
         },
       },
+      animation: {
+        'pulse-in': 'pulse 1s cubic-bezier(0.4, 0, 0.6, 1)',
+        'bounce-mini': 'bounceMini 1s infinite',
+      },
+      keyframes: {
+        bounceMini: {
+          '0%, 100%': {
+            transform: 'translateY(-5%)',
+            'animation-timing-function': 'cubic-bezier(0.8, 0, 1, 1)',
+          },
+          '50%': {
+            transform: 'translateY(0)',
+            'animation-timing-function': 'cubic-bezier(0, 0, 0.2, 1)',
+          },
+        },
+      },
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 };
